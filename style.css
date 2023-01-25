@@ -102,3 +102,7 @@ input {
   font-family: "poppins", sans-serif;
   padding-left: 60px;
 }
+
+a {
+  color: blue;
+}
