@@ -1,6 +1,104 @@
-h1 {
-  text-align: center;
-  color: green;
-  font-weight: bolder;
-  background-color: beige;
+body {
+  font-family: sans-serif;
+  padding: 0, 20px;
+}
+.title-wrapper {
+  margin-top: 150px;
+}
+.current-city {
+  font-size: 22px;
+  line-height: 48px;
+  font-weight: 200;
+  text-align: left;
+  margin-left: 75px;
+  font-family: "poppins", sans-serif;
+  display: block;
+}
+
+h2 {
+  display: block;
+  color: grey;
+}
+
+.current-weather {
+  font-size: 22px;
+  line-height: 5px;
+  font-weight: 200;
+  text-align: left;
+  margin-top: -5px;
+  margin-left: 75px;
+  font-family: "poppins", sans-serif;
+  display: block;
+}
+.current-temp {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 200;
+  text-align: left;
+  margin-top: 35px;
+  margin-left: 75px;
+  font-family: "poppins", sans-serif;
+  position: relative;
+}
+
+.c {
+  font-size: 18px;
+  position: fixed;
+  top: 300px;
+  right: 730px;
+}
+.d {
+  font-size: 18px;
+  position: fixed;
+  top: 300px;
+  right: 720px;
+}
+.f {
+  font-size: 18px;
+  position: fixed;
+  top: 300px;
+  right: 700px;
+}
+.forecast-title {
+  font-size: 22px;
+  line-height: 48px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 25px;
+  margin-left: 75px;
+  font-family: "poppins", sans-serif;
+}
+form {
+  display: block;
+  top: 20px;
+  right: 30px;
+  border-spacing: 40px;
+  position: fixed;
+}
+input {
+  display: inline;
+}
+.city-search {
+  margin: 2rem;
+  border-radius: 5px;
+  outline: grey;
+  box-shadow: 20px;
+}
+.change-city {
+  color: #fff;
+  background-color: green;
+  font-family: "poppins", sans-serif;
+  border-radius: 4px;
+}
+.container {
+  font-size: 22px;
+  line-height: 48px;
+  font-weight: 320;
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 15px;
+  position: fixed;
+  display: block;
+  font-family: "poppins", sans-serif;
+  padding-left: 60px;
 }
